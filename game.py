@@ -18,9 +18,6 @@ computer_choice = random.choice(options)
 print("Computer chose:")
 print(computer_choice)
 
-breakpoint()
-
-print("THANKS PLEASE PLAY AGAIN")
 
 if (computer_choice == user_choice) :
     result = tie
@@ -37,3 +34,4 @@ elif ((user_choice == "scissors") and (computer_choice == "paper")) :
 elif ((user_choice == "paper") and (computer_choice == "scissors")) :
     result = computer_wins
 
+print("THANKS PLEASE PLAY AGAIN")
