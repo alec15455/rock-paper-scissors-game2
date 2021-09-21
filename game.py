@@ -20,7 +20,7 @@ print(computer_choice)
 
 
 user_wins = "YOU WIN!"
-computer_wins= "YOU LOSE!"
+computer_wins = "YOU LOSE!"
 tie = "TIE!"
 
 if (computer_choice == user_choice) :
@@ -38,4 +38,5 @@ elif ((user_choice == "scissors") and (computer_choice == "paper")) :
 elif ((user_choice == "paper") and (computer_choice == "scissors")) :
     result = computer_wins
 
+print(result)
 print("THANKS PLEASE PLAY AGAIN")
