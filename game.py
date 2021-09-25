@@ -28,26 +28,19 @@ computer_wins = "YOU LOSE!"
 tie = "TIE!"
 
 if (computer_choice == user_choice) :
-    result = tie
-        print ("TIE!")
+    print ("TIE!")
 elif ((user_choice == "rock") and (computer_choice == "scissors")) :
-    result = user_wins
-        print("YOU WIN!")
+    print("YOU WIN!")
 elif ((user_choice == "scissors") and (computer_choice == "rock")) :
-    result = computer_wins
-        print("YOU LOSE!")
+    print("YOU LOSE!")
 elif ((user_choice == "rock") and (computer_choice == "paper")) :
-    result = user_wins
-        print("YOU WIN!")
+    print("YOU WIN!")
 elif ((user_choice == "paper") and (computer_choice == "rock")) :
-    result = computer_wins
-        print("YOU LOSE!")
+    print("YOU LOSE!")
 elif ((user_choice == "scissors") and (computer_choice == "paper")) :
-    result = user_wins
-        print("YOU WIN!")
+    print("YOU WIN!")
 elif ((user_choice == "paper") and (computer_choice == "scissors")) :
-    result = computer_wins
-        print("YOU LOSE!")
+    print("YOU LOSE!")
 else:
     print("Please enter rock, paper, or scissors")
 exit()
