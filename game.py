@@ -23,27 +23,30 @@ print("Computer chose:")
 
 print(computer_choice)
 
-if (computer_choice == user_choice) :
-    result = tie
+if user_choice == computer_choice:
     print ("TIE!")
-elif ((user_choice == "rock") and (computer_choice == "scissors")) :
-    result = user_wins
-    print("YOU WIN!")
-elif ((user_choice == "scissors") and (computer_choice == "rock")) :
-    result = computer_wins
-    print("YOU LOSE!")
-elif ((user_choice == "rock") and (computer_choice == "paper")) :
-    result = user_wins
-    print("YOU WIN!")
-elif ((user_choice == "paper") and (computer_choice == "rock")) :
-    result = computer_wins
-    print("YOU LOSE!")
-elif ((user_choice == "scissors") and (computer_choice == "paper")) :
-    result = user_wins
-    print("YOU WIN!")
-elif ((user_choice == "paper") and (computer_choice == "scissors")) :
-    result = computer_wins
-    print("YOU LOSE!")
+
+if user_choice == "rock":
+    if computer_choice == "rock":
+        print("YOU LOSE!")
+    elif computer_choice == "paper":
+        print("YOU LOSE!")
+    elif computer_choice == "scissors":
+        print("YOU WIN!")
+elif user_choice == "paper":
+    if computer_choice == "rock":
+        print("YOU WIN!")
+    elif computer_choice == "paper":
+        print("YOU LOSE!")
+    elif computer_choice == "scissors":
+        print("YOU LOSE!")
+elif user_choice == "scissors":
+    if computer_choice == "rock":
+        print("YOU LOSE!")
+    elif computer_choice == "paper":
+        print("YOU WIN!")
+    elif computer_choice == "scissors":
+        print("YOU LOSE!")
 else:
     print("Please enter rock, paper, or scissors")
 exit()
