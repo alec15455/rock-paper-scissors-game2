@@ -2,19 +2,15 @@
 
 import random
 from dotenv import load_dotenv
-
 load_dotenv()
-user_name = os.getenv("PLAYER_NAME", default = "default")
 
-print("Rock, Paper, Scissors, Shoot!")
-
-# PROMP USER FOR INPUT
+user_name = os.getenv ("PLAYER_NAME", default = "default")
+print("Welcome {user_name}")
 
 #x = input("Choose 'rock' or 'paper' or 'scissors'")
 user_choice = input("Choose 'rock' or 'paper' or 'scissors':")
+print("YOU CHOSE!")
 print(user_choice)
-
-# COMPUTER CHOICE (AT RANDOM)
 
 options = ["rock", "paper", "scissors"]
 
