@@ -20,12 +20,8 @@ options = ["rock", "paper", "scissors"]
 
 computer_choice = random.choice(options)
 print("Computer chose:")
+
 print(computer_choice)
-
-
-user_wins = "YOU WIN!"
-computer_wins = "YOU LOSE!"
-tie = "TIE!"
 
 if (computer_choice == user_choice) :
     result = tie
