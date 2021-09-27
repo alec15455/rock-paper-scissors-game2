@@ -1,7 +1,5 @@
 # this is the game.py file
 
-print("rock, paper, scissors, shoot!")
-
 import random
 from dotenv import load_dotenv
 load_dotenv()
