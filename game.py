@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 import os
-load_getenv()
 
 name = os.getenv ("PLAYER_NAME", default = "PLAYER")
 print("Welcome {name}")
