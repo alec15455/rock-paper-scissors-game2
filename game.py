@@ -10,13 +10,13 @@ name = os.getenv ("PLAYER_NAME", default = "PLAYER")
 print("Welcome {name}")
 
 user_choice = input("Choose 'rock' or 'paper' or 'scissors':")
-print("YOU CHOSE!")
+print("YOU CHOSE:")
 print(user_choice)
 
 options = ["rock", "paper", "scissors"]
 
 computer_choice = random.choice(options)
-print("Computer chose:")
+print("COMPUTER CHOSE:")
 
 print(computer_choice)
 
