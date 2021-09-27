@@ -45,5 +45,5 @@ elif user_choice == "scissors":
     elif computer_choice == "scissors":
         print("YOU LOSE!")
 else:
-    print("Please enter rock, paper, or scissors")
+    print("Please enter rock, paper, or scissors!")
 exit()
