@@ -7,9 +7,9 @@ load_dotenv()
 import os
 
 name = os.getenv ("PLAYER_NAME", default= "PLAYER 1")
-print("Welcome {name}")
+print("Welcome PLAYER 1 to my game")
 
-user_choice = input("Choose 'rock' or 'paper' or 'scissors':")
+user_choice = input("Please choose 'rock' or 'paper' or 'scissors':")
 print("YOU CHOSE:")
 print(user_choice)
 
