@@ -1,7 +1,13 @@
-# game.py
+# this is the game.py file
 
-user_name = os.getenv ("PLAYER_NAME", default = "PLAYER")
-print("Welcome {user_name}")
+print("rock, paper, scissors, shoot!")
+
+import random
+from dotenv import load_dotenv
+load_dotenv()
+
+name = os.getenv ("PLAYER_NAME", default = "PLAYER")
+print("Welcome {name}")
 
 user_choice = input("Choose 'rock' or 'paper' or 'scissors':")
 print("YOU CHOSE!")
